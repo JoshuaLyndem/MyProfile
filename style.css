@@ -1,0 +1,36 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+}
+.profile-pic {
+    width: 100%;
+}
+.name {
+    font-size: 2em;
+    color: white;
+    margin: 0;
+}
+.title {
+    font-size: 1.2em;
+    color: #d9d9d9;
+    margin: 0;
+}
+.w3-display-bottomleft {
+    bottom: 8px;
+    left: 16px;
+    width: 100%;
+}
+.w3-container {
+    padding: 16px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li::before {
+    content: "\2022";
+    color: teal;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}

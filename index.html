@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html, body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Roboto", sans-serif;
+        }
+        .profile-pic {
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 50%; /* Make the image circular */
+            width: 100%; /* Adjust the width as needed */
+        }
+        .name {
+            font-size: 2em;
+            color: white;
+            margin: 0;
+        }
+        .title {
+            font-size: 1.2em;
+            color: #d9d9d9;
+            margin: 0;
+        }
+        .w3-display-container {
+            position: relative;
+            padding-bottom: 150px; /* Ensure there's enough space for the name and title */
+        }
+        .w3-display-bottomleft {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Added background color for better readability */
+            padding: 16px;
+            width: 100%;
+            text-align: center;
+        }
+        .w3-container {
+            padding: 16px;
+        }
+        .left-column {
+            margin-top: 10px; /* Adjust this value to move the column down */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "\2022";
+            color: teal;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: 1em;
+        }
+    </style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third left-column">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="Joshua Picture.jpg" alt="Profile Picture" class="profile-pic">
+          <div class="w3-display-bottomleft">
+            <h2 class="name">Joshua B Lyndem</h2>
+            <p class="title">Aspiring Cybersecurity Analyst</p>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Meghalaya, India</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>jbl1032@usnh.edu</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <ul>
+            <li>Databases and SQL</li>
+            <li>Data Analysis</li>
+            <li>Cybersecurity Fundamentals</li>
+          </ul>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <ul>
+            <li>English</li>
+            <li>Khasi</li>
+          </ul>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Personal and Professional Background</h2>
+        <div class="w3-container">
+          <p>I currently a junior getting a degree in Information Systems and Business analytics from the University of New Hampshire. Over the past 3 years, I have worked in developing my soft skills and my understanding of databases and SQL. Although I do not currently have any experience in the industry, I am looking forward to applying the skills I have learnt in real-world scenarios.</p>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-heart fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Interests</h2>
+        <div class="w3-container">
+          <p>In my free time, I enjoy playing video games, hiking, reading, and calisthenics. I am passionate about cybersecurity and the implications of AI in cybersecurity to be more specific.</p>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-rocket fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Aspirations</h2>
+        <div class="w3-container">
+          <p>In the future, I aspire to be a cybersecurity expert as well as an analyst. I am committed to understanding how AI will be able to shape the world as we know it, especially in the field of cybersecurity and business in general.</p>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-star fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Notable Aspects</h2>
+        <div class="w3-container">
+          <p>A unique aspect about me is my dedication to learning. I love to learn a lot about different things that don't neccessarily have to have any connection. </p>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<!-- Footer -->
+<div class="w3-container w3-teal w3-center w3-margin-top">
+    <p>Connect with me on <a href="https://www.linkedin.com/in/joshua-lyndem/" target="_blank" style="color: #fff;">LinkedIn</a>.</p>
+</div>
+
+</body>
+</html>
